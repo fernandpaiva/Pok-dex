@@ -16,7 +16,7 @@ export default function PokemonCard({name, image, types}) {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
-        <CardMedia component="img" height="200" img={image} alt={name} />
+        <CardMedia component="img" height="250" image={image} alt={name} />
         <CardContent>
           <Box display="flex" justifyContent="space-between" alignItems="center">
             <Typography gutterBottom variant="h5" component="div">
